@@ -10,7 +10,7 @@ import { utils } from '@tezos-core-tools/crypto-utils';
 @Component({
   selector: 'app-connect-ledger',
   templateUrl: './connect-ledger.component.html',
-  styleUrls: ['./connect-ledger.component.scss']
+  styleUrls: ['../../../scss/components/connect-ledger/connect-ledger.component.scss']
 })
 export class ConnectLedgerComponent implements OnInit {
   activePanel = 0;

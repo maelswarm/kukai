@@ -16,7 +16,7 @@ import Big from 'big.js';
 @Component({
   selector: 'app-delegate',
   templateUrl: './delegate.component.html',
-  styleUrls: ['./delegate.component.scss']
+  styleUrls: ['../../../scss/components/delegate/delegate.component.scss']
 })
 export class DelegateComponent implements OnInit, OnChanges {
   modalOpen = false;

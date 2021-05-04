@@ -22,7 +22,7 @@ const zeroTxParams: DefaultTransactionParams = {
 @Component({
   selector: 'app-prepare-send',
   templateUrl: './prepare-send.component.html',
-  styleUrls: ['../send.component.scss']
+  styleUrls: ['../../../../scss/components/send/prepare-send/prepare-send.component.scss']
 })
 export class PrepareSendComponent implements OnInit, OnChanges {
   @Input() prepareRequest: PrepareRequest = null;

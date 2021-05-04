@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-start',
   templateUrl: './start.component.html',
-  styleUrls: ['./start.component.scss']
+  styleUrls: ['../../../scss/components/start/start.component.scss']
 })
 export class StartComponent implements OnInit {
   constructor(

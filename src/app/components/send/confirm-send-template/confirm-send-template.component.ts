@@ -4,7 +4,7 @@ import { TemplateRequest, TemplateFee, FullyPreparedTransaction } from '../inter
 @Component({
   selector: 'app-confirm-send-template',
   templateUrl: './confirm-send-template.component.html',
-  styleUrls: ['./confirm-send-template.component.scss']
+  styleUrls: ['../../../../scss/components/send/confirm-send-template/confirm-send-template.component.scss']
 })
 export class ConfirmSendTemplateComponent implements OnInit, OnChanges {
   @Input() templateRequest: TemplateRequest = null;

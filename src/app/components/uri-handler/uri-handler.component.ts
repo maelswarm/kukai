@@ -18,7 +18,7 @@ import { PartiallyPreparedTransaction } from '../send/interfaces';
 @Component({
   selector: 'app-uri-handler',
   templateUrl: './uri-handler.component.html',
-  styleUrls: ['./uri-handler.component.scss']
+  styleUrls: ['../../../scss/components/uri-handler/uri-handler.component.scss']
 })
 export class UriHandlerComponent implements OnInit {
   permissionRequest: PermissionResponseInput = null;

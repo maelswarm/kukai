@@ -15,7 +15,7 @@ import {
 @Component({
   selector: 'app-accounts',
   templateUrl: './accounts.component.html',
-  styleUrls: ['./accounts.component.scss']
+  styleUrls: ['../../../scss/components/accounts/accounts.component.scss']
 })
 export class AccountsComponent implements OnInit {
   wideAccounts = false;

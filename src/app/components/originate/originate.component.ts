@@ -22,7 +22,7 @@ const zeroTxParams: DefaultTransactionParams = {
 @Component({
   selector: 'app-originate',
   templateUrl: './originate.component.html',
-  styleUrls: ['./originate.component.scss']
+  styleUrls: ['../../../scss/components/originate/originate.component.scss']
 })
 export class OriginateComponent implements OnInit, OnChanges {
   modalOpen = false;

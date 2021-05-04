@@ -6,7 +6,7 @@ import { TorusService } from '../../services/torus/torus.service';
 @Component({
   selector: 'app-messages',
   templateUrl: './messages.component.html',
-  styleUrls: ['./messages.component.scss']
+  styleUrls: ['../../../scss/components/messages/messages.component.scss']
 })
 export class MessagesComponent implements OnInit {
   constructor(

@@ -11,7 +11,7 @@ import { utils, hd } from '@tezos-core-tools/crypto-utils';
 @Component({
   selector: 'app-mnemonic-import-wallet',
   templateUrl: './mnemonic-import.component.html',
-  styleUrls: ['./mnemonic-import.component.scss']
+  styleUrls: ['../../../scss/components/mnemonic-import/mnemonic-import.component.scss']
 })
 export class MnemonicImportComponent implements OnInit {
   @HostBinding('class.tacos') showTacos = false;

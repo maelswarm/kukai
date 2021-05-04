@@ -8,7 +8,7 @@ import { SlicePipe } from '@angular/common';
 @Component({
   selector: 'app-settings',
   templateUrl: './settings.component.html',
-  styleUrls: ['./settings.component.scss']
+  styleUrls: ['../../../scss/components/settings/settings.component.scss']
 })
 export class SettingsComponent implements OnInit {
   implicitAccounts = [];

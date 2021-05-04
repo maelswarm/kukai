@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-new-wallet',
   templateUrl: './new-wallet.component.html',
-  styleUrls: ['./new-wallet.component.scss']
+  styleUrls: ['../../../scss/components/new-wallet/new-wallet.component.scss']
 })
 export class NewWalletComponent implements OnInit {
   wordInput: string;

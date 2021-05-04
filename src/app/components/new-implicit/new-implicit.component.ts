@@ -8,7 +8,7 @@ import { MessageService } from '../../services/message/message.service';
 @Component({
   selector: 'app-new-implicit',
   templateUrl: './new-implicit.component.html',
-  styleUrls: ['./new-implicit.component.scss'],
+  styleUrls: ['../../../scss/components/new-implicit/new-implicit.component.scss'],
 })
 export class NewImplicitComponent implements OnInit {
   @ViewChild('pwdInput') pwdView: ElementRef;

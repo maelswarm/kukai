@@ -10,7 +10,7 @@ import { MessageService } from '../../services/message/message.service';
 @Component({
     selector: 'app-receive',
     templateUrl: './receive.component.html',
-    styleUrls: ['./receive.component.scss']
+    styleUrls: ['../../../scss/components/receive/receive.component.scss']
 })
 export class ReceiveComponent implements OnInit {
     @ViewChild('modal1') modal1: TemplateRef<any>;

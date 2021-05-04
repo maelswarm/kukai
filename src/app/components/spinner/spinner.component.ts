@@ -4,7 +4,7 @@ import { MessageService } from '../../services/message/message.service';
 @Component({
   selector: 'app-spinner',
   templateUrl: './spinner.component.html',
-  styleUrls: ['./spinner.component.scss']
+  styleUrls: ['../../../scss/components/spinner/spinner.component.scss']
 })
 export class SpinnerComponent implements OnInit {
 

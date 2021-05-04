@@ -6,7 +6,7 @@ import { ImplicitAccount } from '../../services/wallet/wallet';
 @Component({
   selector: 'app-token',
   templateUrl: './token.component.html',
-  styleUrls: ['./token.component.scss']
+  styleUrls: ['../../../scss/components/token/token.component.scss']
 })
 export class TokenComponent implements OnInit {
   @Input() account: ImplicitAccount;

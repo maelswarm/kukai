@@ -5,7 +5,7 @@ import { MessageService } from '../../services/message/message.service';
 @Component({
   selector: 'app-permission-request',
   templateUrl: './permission-request.component.html',
-  styleUrls: ['./permission-request.component.scss']
+  styleUrls: ['../../../scss/components/permission-request/permission-request.component.scss']
 })
 export class PermissionRequestComponent implements OnInit, OnChanges {
   @Input() permissionRequest: any;

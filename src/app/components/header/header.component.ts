@@ -10,7 +10,7 @@ import { CONSTANTS as _CONSTANTS } from '../../../environments/environment';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['../../../scss/components/header/header.component.scss']
 })
 export class HeaderComponent implements OnInit {
   @Input() activeAccount: Account;

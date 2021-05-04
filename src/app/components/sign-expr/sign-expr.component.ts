@@ -14,7 +14,7 @@ import { InputValidationService } from '../../services/input-validation/input-va
 @Component({
   selector: 'app-sign-expr',
   templateUrl: './sign-expr.component.html',
-  styleUrls: ['./sign-expr.component.scss']
+  styleUrls: ['../../../scss/components/sign-expr/sign-expr.component.scss']
 })
 export class SignExprComponent implements OnInit, OnChanges {
   @Input() signRequest: any;

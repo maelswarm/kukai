@@ -19,7 +19,7 @@ import { InputValidationService } from '../../../services/input-validation/input
 @Component({
   selector: 'app-confirm-send',
   templateUrl: './confirm-send.component.html',
-  styleUrls: ['../send.component.scss']
+  styleUrls: ['../../../../scss/components/send/confirm-send/confirm-send.component.scss']
 })
 export class ConfirmSendComponent implements OnInit, OnChanges {
   @Input() confirmRequest: PrepareRequest = null;

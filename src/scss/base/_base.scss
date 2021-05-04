@@ -1,0 +1,104 @@
+@use '../abstracts/variables'as v;
+
+%base-button {
+    outline: none;
+    border: none;
+    border-radius: v.$border-radius-hard;
+    background-color: v.$primary-color;
+    color: v.$accent-color;
+    padding: .666rem;
+    img {
+        height: 1rem;
+    }
+}
+
+%flex {
+    display: flex;
+}
+
+%row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%column {
+    flex-direction: column;
+}
+
+%wrap {
+    flex-wrap: wrap;
+}
+
+%nowrap {
+    flex-wrap: nowrap;
+}
+
+%grid {
+    display: grid;;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    background-color: hsl(228deg 22% 95%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+
+    @extend %base-button;
+    &--invert {
+        @extend %base-button;
+        border: "2px solid";
+        border-color: v.$primary-color;
+        border-radius: v.$border-radius-hard;
+        background-color: #fff;
+        color: v.$primary-color;
+    }
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.flex {
+    @extend %flex;
+
+    &-row {
+        @extend %flex;
+        @extend %row;
+
+        &-wrap {
+            @extend %flex;
+            @extend %row;
+            @extend %wrap;
+        }
+    }
+
+    &-column {
+        @extend %flex;
+        @extend %column;
+
+        &-wrap {
+            @extend %flex;
+            @extend %column;
+            @extend %wrap;
+        }
+    }
+}
+
+.grid {
+    @extend %grid;
+}

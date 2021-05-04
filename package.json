@@ -12,6 +12,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "node patch.js",
+    "sass": "sass ./src/scss/styles.scss ./src/scss/styles.css",
     "stage-ghpages-mainnet": "ng lint --fix && ng build --prod && angular-cli-ghpages --repo \"git@github.com:kukai-wallet/wallet.git\" --branch staging --cname=wallet.kukai.app",
     "stage-ghpages-testnet": "ng lint --fix && ng build && angular-cli-ghpages --repo \"git@github.com:kukai-wallet/testnet.git\" --branch staging --cname=testnet.kukai.app",
     "deploy-edonet-version": "ng lint --fix && npm run build-dev && angular-cli-ghpages --repo \"git@github.com:kukai-wallet/edonet.git\" --branch main --cname=edonet.kukai.app",
@@ -104,6 +105,7 @@
     "karma-mocha-reporter": "^2.2.5",
     "kukai-embed": "0.6.4",
     "protractor": "~7.0.0",
+    "sass": "^1.32.12",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"

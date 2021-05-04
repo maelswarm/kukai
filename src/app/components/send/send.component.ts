@@ -15,7 +15,7 @@ import { CoordinatorService } from '../../services/coordinator/coordinator.servi
 @Component({
   selector: 'app-send',
   templateUrl: './send.component.html',
-  styleUrls: ['./send.component.scss']
+  styleUrls: ['../../../scss/components/send/send.component.scss']
 })
 
 export class SendComponent implements OnInit, OnChanges {

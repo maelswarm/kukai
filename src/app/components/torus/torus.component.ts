@@ -9,7 +9,7 @@ import { WalletService } from '../../services/wallet/wallet.service';
 @Component({
   selector: 'app-torus',
   templateUrl: './torus.component.html',
-  styleUrls: ['./torus.component.scss']
+  styleUrls: ['../../../scss/components/torus/torus.component.scss']
 })
 export class TorusComponent implements OnInit {
   activeLogin = 'google';
