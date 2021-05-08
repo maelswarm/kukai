@@ -5,9 +5,11 @@ $accent-color: #fff !default;
 $base-red-color: hsl(9deg 93% 59%) !default;
 $base-green-color: hsl(93deg 53% 48%) !default;
 $box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.16) !default;
-$border: 1rem solid #3333 !default;
+// $border: 1rem solid #3333 !default;
 $border-radius: 1.0rem !default;
 $border-radius-hard: calc(#{$border-radius} * 2) !default;
 $base-font-color: hsl(219deg 17% 30%) !default;
-$font-weight: 300;
-$font-weight-hard: 600;
+// $font-weight: 300;
+// $font-weight-hard: 600;
+
+$fa-font-path : '../node_modules/font-awesome/fonts';

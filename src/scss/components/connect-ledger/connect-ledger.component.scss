@@ -1,13 +1,14 @@
-@import "../../../scss/card.css";
+@import "../../layouts/card.scss";
+
 :host {
-    width: 100%;
-    min-height: 100vh;
-    padding-bottom: 8rem;
-    overflow: hidden;
-    display: flex;
-    background: #5963FF;
-}
-:host > div {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 8rem;
+  overflow: hidden;
+  display: flex;
+  background: #5963FF;
+
+  &>div {
     margin-top: 5rem;
     width: 100vw;
     min-height: 100%;
@@ -15,14 +16,19 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-}
-:host input.text {
+  }
+
+  & input.text {
     margin-top: 2.5rem;
-}
-:host input.text[disabled] {
-  background: #e1e1e1;
-}
-:host small {
+  }
+
+  & input.text[disabled] {
+    background: #e1e1e1;
+  }
+
+  & small {
     margin-top: 1rem;
+  }
 }
-@import '../../../scss/switch.scss'
+
+@import '../../layouts/switch.scss'

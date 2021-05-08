@@ -1,10 +1,12 @@
-@import "../../../scss/modal.scss";
+@import "../../layouts/modal.scss";
+
 img.qr-icon {
   width: 1rem;
   height: 1rem;
   cursor: pointer;
   vertical-align: baseline;
 }
+
 div.km-body {
   display: flex;
   justify-content: center;
@@ -13,8 +15,9 @@ div.km-body {
   margin-left: 0;
   margin-right: 0;
 }
+
 @media screen and (max-width: 27rem) {
-    div.button {
-        width: 6.75rem;
-    }
+  div.button {
+    width: 6.75rem;
   }
+}
