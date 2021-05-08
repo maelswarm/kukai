@@ -1,5 +1,4 @@
-@use './abstracts/__abstracts-dir';
-@use './base/__base-dir';
-@use './components/__components-dir';
-@use './layouts/__layouts-dir';
-@use './vendor/__vendor-dir';
+@import './abstracts/__abstracts-dir';
+@import './base/__base-dir';
+@import './layouts/__layouts-dir';
+@import './vendor/__vendor-dir';
