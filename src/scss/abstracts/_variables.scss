@@ -11,3 +11,5 @@ $border-radius-hard: calc(#{$border-radius} * 2) !default;
 $base-font-color: hsl(219deg 17% 30%) !default;
 $font-weight: 300;
 $font-weight-hard: 600;
+
+$fa-font-path : '../node_modules/font-awesome/fonts';

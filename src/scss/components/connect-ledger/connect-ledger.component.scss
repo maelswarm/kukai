@@ -1,4 +1,4 @@
-@import "../../../scss/card.css";
+@use "../../layouts/card.scss";
 
 :host {
   width: 100%;
@@ -31,4 +31,4 @@
   }
 }
 
-@import '../../../scss/switch.scss'
+@import '../../layouts/switch.scss'

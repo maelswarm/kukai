@@ -1,6 +1,6 @@
-@import "../../../../assets/fonts/Poppins/stylesheet.css";
+@use "../../../../assets/fonts/Poppins/stylesheet.css";
 
-:root {
+:host {
 
   div.kukai-template {
     position: fixed;

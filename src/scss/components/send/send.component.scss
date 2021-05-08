@@ -1,6 +1,6 @@
-@import '../../../scss/modal.scss';
-@import '../../../scss/switch.scss';
-@import '../../../scss/dropdown.scss';
+@use '../../layouts/modal.scss';
+@use '../../layouts/switch.scss';
+@use '../../layouts/dropdown.scss';
 
 button.purple.open:hover {
   margin-top: -0.125rem;

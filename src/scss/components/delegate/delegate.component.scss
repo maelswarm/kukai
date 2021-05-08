@@ -1,6 +1,6 @@
-@import "../../../scss/modal.scss";
+@use "../../layouts/modal.scss";
 
-:root {
+:host {
 
   .modal-footer {
     padding-bottom: 0rem;

@@ -1,7 +1,7 @@
-@import "../../../scss/modal.scss";
-@import '../../../scss/switch.scss';
+@use "../../layouts/modal.scss";
+@use '../../layouts/switch.scss';
 
-:root {
+:host {
 
   .modal-footer {
     padding-bottom: 0rem;
