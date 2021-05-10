@@ -27,7 +27,7 @@
       z-index: 0;
 
       &>div {
-        width: 11.25rem;
+        width: 33%;
 
         &.low {
           padding-top: 0.625rem;
@@ -36,7 +36,7 @@
         &:last-child>a.docs {
           margin: 0 1rem 1rem auto;
           float: right;
-          font-size: 0.75rem;
+          font-size: 1rem;
         }
 
         &.since {
@@ -50,7 +50,7 @@
       }
 
       & a {
-        font-size: 0.5rem;
+        font-size: 1rem;
         color: rgba(256, 256, 256, 0.6);
         margin-left: 1rem;
 
