@@ -23,7 +23,6 @@
               "src/serviceworker"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/simple-line-icons/css/simple-line-icons.css",
               "src/scss/styles.scss"
@@ -90,7 +89,6 @@
               "node_modules/jquery/dist/jquery.min.js"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
               "node_modules/simple-line-icons/css/simple-line-icons.css",
               "src/scss/styles.scss"
