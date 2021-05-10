@@ -238,7 +238,7 @@
   &>a>div.content {
     padding: 0 1.125rem;
     height: 3.5rem;
-    width: 21.875rem;
+    width: calc(100% - 2.5rem);
     background: #fcfcfc;
     border: 1px solid #ffffff;
     border-radius: 12px;

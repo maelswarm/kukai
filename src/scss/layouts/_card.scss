@@ -411,7 +411,7 @@
     & small,
     & input.text,
     & textarea.text {
-      width: 19.875rem;
+      width: calc(100% - 4rem);
       margin-left: 1rem;
       margin-right: 1rem;
     }

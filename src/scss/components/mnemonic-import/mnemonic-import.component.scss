@@ -1,4 +1,4 @@
-@importort "../../layouts/card.scss";
+@import "../../layouts/card.scss";
 
 :host {
   width: 100%;
@@ -76,7 +76,7 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        width: 28rem;
+        width: calc(100% - 4rem);
         margin-left: 2rem;
         margin-top: 1.5rem;
       }
@@ -183,21 +183,25 @@
   }
 }
 
-@media screen and (max-width: 32.5rem) {
+@media (max-width: 32.5rem) {
   :host {
     &>div.kukai-card label.input-file {
-      width: 19.875rem;
+      width: calc(100% - 2rem);
       margin-left: 1rem;
+
+      &.loaded {
+        width: calc(100% - 5rem);
+      }
     }
 
     &>div.kukai-card div.authenticate>input#pwd {
-      width: 19.875rem;
+      width: calc(100% - 4rem);
       margin-left: 1rem;
     }
 
     &>div.kukai-card div.radios {
       margin-left: 1rem;
-      width: 20rem;
+      width: calc(100% - 2rem);
     }
 
     &>div.kukai-card div.radios small {
