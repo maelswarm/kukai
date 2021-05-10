@@ -7,62 +7,65 @@
   align-items: center;
   justify-content: center;
 
-  &.hide {
+  & .hide {
     visibility: hidden;
   }
 
-  & div {
-    &.foot-container {
+  & div.foot-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+    &>div.links {
       display: flex;
-      align-items: center;
       justify-content: space-between;
       width: 100%;
-      height: 100%;
-      flex-direction: column;
+      height: 2.625rem;
+      z-index: 0;
 
-      &>div.links {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 2.625rem;
-        z-index: 0;
+      &>div {
+        width: 11.25rem;
 
-        &>div {
-          width: 11.25rem;
-
-          &:last-child>a.docs {
-            margin: 0 1rem 1rem auto;
-            float: right;
-            font-size: 0.75rem;
-          }
-
-          &.low {
-            padding-top: 0.625rem;
-          }
-
-          &.since {
-            width: auto;
-
-            & a {
-              margin: 0;
-              padding: 0;
-            }
-          }
+        &.low {
+          padding-top: 0.625rem;
         }
 
-        & a:hover {
+        &:last-child>a.docs {
+          margin: 0 1rem 1rem auto;
+          float: right;
+          font-size: 0.75rem;
+        }
+
+        &.since {
+          width: auto;
+
+          &>a {
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+
+      & a {
+        font-size: 0.5rem;
+        color: rgba(256, 256, 256, 0.6);
+        margin-left: 1rem;
+
+        &:hover {
           color: white;
           background-color: #5963FF;
         }
       }
+    }
 
-      &.dark>div.links a:hover {
-        color: rgba(0, 0, 0, 0.8) !important;
-        background-color: inherit;
-      }
+    &.dark>div.links a:hover {
+      color: rgba(0, 0, 0, 0.8) !important;
+      background-color: inherit;
     }
   }
-
 
   #follow {
     height: 3rem;
@@ -83,34 +86,33 @@
       -khtml-opacity: 0.8;
       vertical-align: top;
     }
+
+    & a {
+      position: relative;
+      top: 0.24rem;
+      opacity: 0.8;
+      -webkit-opacity: 0.8;
+      -khtml-opacity: 0.8;
+      font-size: 0.75rem;
+    }
   }
 
-  .dark #follow span,
-  div.foot-container.dark>div.links>div.low>a {
+  & .dark #follow span,
+  & div.foot-container.dark>div.links>div.low>a {
     color: rgba(0, 0, 0, 0.4) !important;
   }
 
-  .dark img {
+  & .dark img {
     filter: invert(40%);
   }
 
-  #follow a {
-    position: relative;
-    top: 0.24rem;
-    opacity: 0.8;
-    -webkit-opacity: 0.8;
-    -khtml-opacity: 0.8;
-    font-size: 0.75rem;
-
-  }
-
-  #tg {
+  & #tg {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 
-  #follow img:hover,
-  div.foot-container>div.links a.docs img:hover {
+  & #follow img:hover,
+  & div.foot-container>div.links a.docs img:hover {
     filter: invert(25%) sepia(800%) saturate(2878%) hue-rotate(180deg);
   }
 }
