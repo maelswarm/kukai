@@ -51,7 +51,6 @@
     "babel-polyfill": "^6.26.0",
     "big.js": "^5.2.2",
     "bip39": "^3.0.2",
-    "bootstrap": "^4.5.0",
     "bs58check": "^2.1.2",
     "buffer": "^5.4.0",
     "copy-to-clipboard": "^3.2.0",
