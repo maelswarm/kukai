@@ -3,7 +3,7 @@
   <div class="left-container">
     <div class="main-container small" [class.expanded]="!displayTokenCard()">
       <div class="top-container">
-        <H1>Account Information</H1>
+        <h1>Account Information</h1>
       </div>
       <div id="account-container">
         <div class="mid-container">
@@ -29,7 +29,7 @@
     </div>
     <div class="main-container small" style="margin-top: 2rem" *ngIf="displayTokenCard()">
       <div class="top-container">
-        <H1>Tokens</H1>
+        <h1>Tokens</h1>
       </div>
       <div class="token-container">
         <ng-container *ngIf="account.tokens.length; else noTokens">
@@ -57,7 +57,7 @@
   </div>
   <div class="main-container large">
     <div class="top-container">
-      <H1 style="float:left">Recent Activity</H1>
+      <h1 style="float:left">Recent Activity</h1>
       <a class="view-all" href="{{ explorerURL(account.address) }}" target="_blank">View in explorer</a>
     </div>
     <div id="operations-container" *ngIf="this.translate.store.translations.en">
