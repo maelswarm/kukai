@@ -34,6 +34,7 @@
     font-size: 0.875rem;
     line-height: 1rem;
     color: #5963ff;
+    text-decoration: none;
   }
 
   .main-container {
@@ -227,29 +228,7 @@
       }
     }
 
-    div {
-
-      span {
-        &.green {
-          color: #18AE39;
-          font-weight: 500;
-        }
-
-        &.red {
-          color: #f01004;
-          font-weight: 500;
-        }
-
-        &.blue {
-          color: #5963FF;
-          font-weight: 500;
-        }
-
-        &.black {
-          color: #2C323A;
-          font-weight: 500;
-        }
-      }
+    & div {
 
       span,
       a {
@@ -275,6 +254,29 @@
       &.line a {
         font-weight: normal;
         color: #2c323a;
+        text-decoration: none;
+      }
+
+      span {
+        &.green {
+          color: #18AE39;
+          font-weight: 500;
+        }
+
+        &.red {
+          color: #f01004;
+          font-weight: 500;
+        }
+
+        &.blue {
+          color: #5963FF;
+          font-weight: 500;
+        }
+
+        &.black {
+          color: #2C323A;
+          font-weight: 500;
+        }
       }
     }
   }
