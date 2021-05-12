@@ -32,6 +32,10 @@
 
         &.low {
           padding-top: 0.625rem;
+
+          & a {
+            text-decoration: none;
+          }
         }
 
         &:last-child>a.docs {

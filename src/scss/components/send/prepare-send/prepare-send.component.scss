@@ -1,10 +1,11 @@
 :host {
 
   select.select-css {
-    width: auto;
-    padding-right: 1.5rem;
+    width: 9.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    opacity: 0.6;
     border-radius: 0.5rem;
-    height: 1.5rem;
   }
 
   button.purple {
@@ -12,5 +13,13 @@
     border-radius: 0.5rem;
     font-weight: 700;
     padding: 1rem;
+  }
+
+  div.kukai-modal>div.km-content {
+    width: 30rem;
+  }
+
+  div.switch-container {
+    margin-top: 0.5rem;
   }
 }

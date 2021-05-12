@@ -54,6 +54,23 @@
   }
 }
 
+button {
+  border-radius: 0.75rem;
+  height: 3rem;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-appearance: none !important;
+  border-width: 0;
+}
+
 /* Support for rtl text, explicit support for Arabic and Hebrew */
 *[dir="rtl"] .select-css,
 :root:lang(ar) .select-css,
