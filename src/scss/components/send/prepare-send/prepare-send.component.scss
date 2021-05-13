@@ -17,6 +17,10 @@
 
   div.kukai-modal>div.km-content {
     width: 30rem;
+
+    &>div.km-body>div.group>input.text {
+      font-size: 0.8125rem
+    }
   }
 
   div.switch-container {
