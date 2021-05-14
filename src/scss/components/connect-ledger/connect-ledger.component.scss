@@ -2,7 +2,7 @@
 
 :host {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 8rem);
   padding-bottom: 8rem;
   overflow: hidden;
   display: flex;
