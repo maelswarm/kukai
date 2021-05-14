@@ -10,10 +10,8 @@
           message.amount }}</b> sent</span>
     </alert>
     <alert *ngIf="message.timeout" [type]="message.type" [dismissOnTimeout]="message.timeout">
-      <div class="alert alert-info">
-        <span *ngIf="message.msg">{{ message.msg }}</span><img *ngIf="message.loader" class="loader"
-          src="../../../assets/img/wait.svg">
-      </div>
+      <span *ngIf="message.msg">{{ message.msg }}</span><img *ngIf="message.loader" class="loader"
+        src="../../../assets/img/wait.svg">
     </alert>
   </div>
 </div>

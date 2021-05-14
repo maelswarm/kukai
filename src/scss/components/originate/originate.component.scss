@@ -167,55 +167,62 @@
       line-height: 1rem;
       color: #161616;
     }
-  }
 
-  div.advanced-form {
-    margin-top: 1rem;
-  }
+    & div.advanced-form {
+      margin-top: 1rem;
 
-  // Micheline / JSON tab
-  div.tabs-container {
-    margin-top: 0.5rem;
+      div.tabs-container {
+        margin-top: 0.5rem;
 
-    &:not(.blue)>ul.tabs>li.tab {
-      &:first-child {
-        border-top-left-radius: 0.75rem;
-      }
+        &>ul.tabs {
+          display: flex;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
 
-      &:last-child {
-        border-top-right-radius: 0.75rem;
-      }
-    }
+          &>li.tab {
+            width: 100%;
+            color: #787878;
+            text-align: center;
+            cursor: pointer;
+            padding: 0.25rem;
+            background-color: rgb(246, 246, 246);
 
-    &.blue>ul.tabs>li.tab {
-      color: black; //5963FF
-      background-color: rgba(89, 99, 255, 0.4);
-      border-bottom: 0.0625 solid #5963ff;
+            &.active {
+              background-color: #d9d9d9;
+              color: #484848;
+            }
 
-      &.active {
-        background-color: #d9d9d9;
-        color: #484848;
-      }
+            &:hover {
+              background-color: #C0C0C0;
+              color: #484848;
+            }
+          }
+        }
 
-      &:hover {
-        background-color: #C0C0C0;
-        color: #484848;
-      }
-    }
+        &.blue>ul.tabs>li.tab {
+          color: black; //5963FF
+          background-color: rgba(89, 99, 255, 0.4);
+          border-bottom: 0.0625 solid #5963ff;
+        }
 
-    &>ul.tabs {
-      display: flex;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+        &:not(.blue)>ul.tabs>li.tab:first-child {
+          border-top-left-radius: 0.75rem;
+        }
 
-      &>li.tab {
-        width: 100%;
-        color: #787878;
-        text-align: center;
-        cursor: pointer;
-        padding: 1rem auto;
-        background-color: rgb(246, 246, 246);
+        &:not(.blue)>ul.tabs>li.tab:last-child {
+          border-top-right-radius: 0.75rem;
+        }
+
+        &.blue>ul.tabs>li.tab.active {
+          background-color: #5963FF;
+          color: #f3f3f3;
+        }
+
+        &.blue>ul.tabs>li.tab:hover {
+          background-color: rgba(89, 99, 255, 0.7);
+          color: #f3f3f3;
+        }
       }
     }
   }

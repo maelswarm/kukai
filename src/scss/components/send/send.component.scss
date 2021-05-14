@@ -148,32 +148,6 @@ div {
       width: 30rem;
     }
 
-    & div.advanced-form input.text {
-      &::placeholder {
-        color: black;
-        opacity: 1;
-      }
-
-      &::-webkit-input-placeholder,
-      &:-ms-input-placeholder {
-        color: black;
-      }
-
-      &.read-only::placeholder {
-        color: #808080;
-        opacity: 1;
-      }
-
-      &.read-only::-webkit-input-placeholder,
-      &.read-only:-ms-input-placeholder {
-        color: #808080;
-      }
-
-      &.read-only {
-        color: #808080;
-      }
-    }
-
     &.confirm div.advanced {
       margin-top: 0.5rem;
     }

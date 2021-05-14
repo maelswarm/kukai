@@ -73,6 +73,11 @@ div.kukai-modal {
     margin-right: 1rem;
   }
 
+  & input.text::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000;
+    opacity: 1; /* Firefox */
+  }
+
   & textarea.text {
     padding-top: 0.5rem;
     height: 7rem;
