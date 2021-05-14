@@ -26,7 +26,7 @@
   & div.whitebox {
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 100%;
+    width: calc(100% - 2.5rem);
     height: 8.5rem;
     z-index: 1;
     color: black;
